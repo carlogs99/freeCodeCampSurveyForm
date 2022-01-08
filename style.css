@@ -13,7 +13,7 @@ main {
     margin: auto;
     box-align: center;
     width: 60vh;
-    height: 75vh;
+    height: 80vh;
     background-color: whitesmoke;
     border-radius: 10%;
     box-shadow: 5px 5px lightgrey;
@@ -44,7 +44,7 @@ h1 {
     font-size: 2vh;
     border-width: 0px;
     border-bottom: 1px solid lightgray;
-    width: 40%;
+    width: 60%;
     display: block;
     margin: 0.5vh 0px 0px 0px;
 }
@@ -52,6 +52,7 @@ h1 {
 #radio-group, #checkbox-group {
     display: block;
     margin: 0.5vh 0px 0px 0px;
+    font-size: 2vh;
 }
 
 textarea  {
@@ -67,7 +68,7 @@ textarea  {
 }
 
 #button-wrap {
-    width: 30%;
+    width: 25%;
     padding: 1rem;
     border-radius: 18px;
     position: relative;
@@ -84,7 +85,7 @@ textarea  {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin: 0px;
     cursor: pointer;
     border-radius: 16px;
@@ -95,4 +96,20 @@ textarea  {
     outline: none;
 }
 
+*:focus::placeholder {
+    color: transparent;
+}
+
+
+/* Remove number input arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
