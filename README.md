@@ -24,6 +24,7 @@ Second project of the Responsive Web Design course on freeCodeCamp.
 ## Things learnt in this project:
 * How to create a basic form.
 * Practice using Git and GitHub.
+* Made some media queries for the first time.
 
 ## Things that could be improved:
 * Form action.
