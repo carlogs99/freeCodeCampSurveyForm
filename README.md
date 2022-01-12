@@ -1,6 +1,6 @@
 # FCC: Survey Form
 
-Second project of the Responsive Web Design course on freeCodeCamp.
+Second project of the Responsive Web Design course on freeCodeCamp. [The live website can be seen here](https://carlogs99.github.io/freeCodeCampSurveyForm/).
 
 ## Challenge: Create a survey form using pure HTML/CSS that fulfills the following user stories:
 
